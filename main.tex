@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ \usepackage{graphicx}
+ \usepackage{titling}
+
+ \title{Application and Protocols of Smart Door System}
+ 
+\author{Mohammed Raashid}
+
+ 
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[L]{\thedate}
+    \fancyhead[L]{Smart Door System}
+    \fancyhead[R]{\theauthor}
+}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1em}
+\makeatother
+
+\usepackage{cmbright}
+
+\begin{document}
+
+\maketitle
+
+\noindent\begin{tabular}{@{}ll}
+    Student : \theauthor\\
+     Class :  AIDS - B\\
+     Registration Number : 21011101077
+\end{tabular}
+
+\begin{abstract}
+    A smart door is a door equipped with technology such as sensors, cameras and internet connectivity, allowing it to be controlled and accessed remotely. This technology aims to provide convenience, security and automation to the traditional door. The smart door can be integrated with other smart devices in the home, such as security systems, home automation systems and smart home hubs. Additionally, it can use various communication protocols such as Z-Wave, Zigbee, BLE, Wi-Fi and IP to connect to other devices and systems. Biometric authentication methods such as fingerprint or facial recognition can also be used to grant access to authorized users. Overall, a smart door is a modern solution to enhance the traditional door's function and provide a secure and convenient access to the users.
+\end{abstract}
+
+
+\section{Application Of Smart Door}
+1. Remote access: Users can unlock the door using their smartphone or a web application, eliminating the     need for physical keys.\\
+\\
+2. Automatic locking: The door can be configured to lock automatically after a certain period of time or    when a user leaves the premises.\\
+\\
+3. Video surveillance: Smart door cameras can be used to capture images of visitors and record footage of    the door area.\\
+\\
+4. Voice control: Users can use voice commands to control the smart door.\\
+\\
+5. Smart Home Integration: Smart door can be integrated with other smart devices in the home, such as       security systems and home automation systems, to provide an even more secure and convenient experience.\\
+\\
+6. Smart door protocols: Smart door can be integrated with IoT platforms and use protocols like z-wave,     Zigbee, or BLE to communicate with other smart devices.\\
+\\
+7. Biometric authentication: Smart doors can use biometric authentication methods such as fingerprint or    facial recognition to grant access to authorized users.\\
+\\
+\section{Protocols Of Smart Door}
+\subsection{Z-Wave}
+This is a wireless communication protocol that is used for home automation and IoT devices. It operates in the sub-gigahertz frequency range and is known for its low power consumption, long range, and high security.
+
+\subsection{Zigbee}
+This is another wireless communication protocol commonly used in smart home devices. It is similar to Z-Wave in that it is designed for low-power, low-data-rate applications and is also known for its high security. smartphones and other mobile devices to smart home devices.
+
+\subsection{Bluetooth Low Energy - BLE}
+This is a wireless communication protocol that is used for short-range communication between devices. It is commonly used for connecting 
+
+\subsection{WiFi}
+This is a wireless communication protocol that is commonly used for connecting devices to the internet. Many smart doors use WiFi to connect to the internet and allow remote access and control.
+
+\subsection{Internet Protocol - IP}
+Internet Protocol is a set of rules that govern the format of data sent over the internet. Most smart doors use IP to communicate with other devices, such as smartphones, over the internet.
+
+\end{document}
